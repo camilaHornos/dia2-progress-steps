@@ -15,7 +15,9 @@ if (sumando === 1) {
 }else if (sumando ===  4) {
     color4.style.backgroundColor = "rgb(92, 116, 149)";
     color4b.style.backgroundColor = "rgb(92, 116, 149)"; 
-} 
+} else{
+    sumando = 0
+}
     
 } 
 
@@ -36,7 +38,9 @@ if (restando === 4) {
 }else if (restando === 1) {
     color4.style.backgroundColor = "rgb(231, 223, 213)";
     color4b.style.backgroundColor = "rgb(231, 223, 213)"; 
-} 
+} else{
+    restando = 0
+}
     
 } 
 
